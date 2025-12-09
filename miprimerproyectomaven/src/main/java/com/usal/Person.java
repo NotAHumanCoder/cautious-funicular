@@ -29,11 +29,16 @@ public class Person {
         this.apellido = apellido;
     }
 
+    /**
+     * @param  personString Esta es una cadena separada por comas
+     * @return Person Instancia del objeto Person
+     * 
+     */
     public static Person fromCVString(String personString){
 
         String[] trozos=personString.split(",");
 
     }
 
-    
+
 }

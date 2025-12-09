@@ -2,6 +2,9 @@ package com.usal;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Gson gson=new Gson;
+        Person p=new Person("Álvaro", "Lozano");
+        String personJSON=gson.toJson(p);
+        System.out.println(personJSON);
     }
 }

@@ -34,3 +34,6 @@ public class Person {
         String[] trozos=personString.split(",");
 
     }
+
+    
+}
